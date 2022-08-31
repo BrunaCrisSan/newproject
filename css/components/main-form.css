@@ -1,11 +1,13 @@
-.main-title{
+.main-form{
+background-color: #3A4042;
+}
+.main-form.-contact{
     font-family: 'Press Start 2P', sans-serif;
     font-size: 40px;
-    color: #F25A70;
-    text-shadow: 4px 4px 0 #000;
-}
-.main-title.-second{
     color: #FFF;
     text-shadow: none;
     text-align: center;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    
 }

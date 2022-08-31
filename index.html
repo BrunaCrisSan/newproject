@@ -26,7 +26,9 @@
     <link rel="stylesheet" type="text/css" href="css/components/button-arrow.css">
     <link rel="stylesheet" type="text/css" href="css/components/main-carousel.css">
     <link rel="stylesheet" type="text/css" href="css/components/node-card.css">
+    <link rel="stylesheet" type="text/css" href="css/components/main-form.css">
     <link rel="stylesheet" type="text/css" href="css/components/main-label.css">
+    <link rel="stylesheet" type="text/css" href="css/components/main-input.css">
     <link rel="stylesheet" type="text/css" href="css/components/main-footer.css">
     
     
@@ -187,17 +189,19 @@
             <button class="button-arrow -right"><span class="content">avançar</span></button>
         </section>
     </section>
-    <form>
+    <form class="main-form">
+        <h2 class="main-form -contact">Contatos</h2>
+
         <label class="main-label" for="name">Nome</label>
-        <input id="name" type="text">
+        <input class="main-input" id="name" type="text">
 
         <label class="main-label" for="email">E-mail</label>
-        <input id="email" type="email">
+        <input class="main-input" id="email" type="email">
 
         <label class="main-label" for="message">Mensagem</label>
-        <textarea id="message"></textarea>
+        <textarea class="main-input -textarea" id="message"></textarea>
 
-        <button type="submit">Enviar</button>
+        <button class="main-input -submit" type="submit">Enviar</button>
     </form>
     <footer class="main-footer">
         <a class="action" href="" target="blank"><img src="css/img/icon-twitter.png" alt="Logo twiter pixel art"></a>
